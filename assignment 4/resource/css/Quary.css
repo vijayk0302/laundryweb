@@ -1,0 +1,346 @@
+/* for laptop 1200px */
+@media only screen and (max-width: 1200px) {
+    .left p {
+        font-size: 1.1rem;
+
+    }
+
+    .headline {
+        font-size: 2rem;
+    }
+
+    .overview h1 {
+        color: white;
+        font-size: 2.5rem;
+
+    }
+
+    .form-mail-text {
+        padding: 20px;
+        width: 40%;
+    }
+
+    .text-mail {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .right img {
+        height: 400px;
+        width: auto;
+    }
+}
+
+/* for big tablet 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+
+    .right img {
+        height: 250px;
+        width: auto;
+    }
+
+    .left p {
+        font-size: 0.9rem;
+
+    }
+
+    .headline {
+        font-size: 1.5rem;
+    }
+
+    .overview h1 {
+        color: white;
+        font-size: 2rem;
+
+    }
+
+    .left a {
+        padding: 10px 20px;
+
+    }
+
+    .right-section h4 {
+
+        font-size: 1.4rem;
+    }
+
+    .right-section p {
+
+        font-size: 0.9rem;
+    }
+
+    .text-mail {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .nav-list li {
+        font-size: 1rem;
+
+    }
+
+    .nav-list {
+
+        gap: 25px;
+
+    }
+
+    .our-service p {
+        font-size: 0.9rem;
+    }
+
+    .our-service h2 {
+        font-size: 1.1rem;
+
+    }
+
+    .service-name {
+        font-size: 0.9rem;
+
+    }
+
+    .service-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px;
+    }
+
+    .right-cart-service h2 {
+        font-size: 16px;
+
+    }
+
+    .service-price {
+        font-size: 0.9rem;
+    }
+
+    .cartaddingbtn {
+        padding: 5px 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(20, 102, 6, 0.421);
+    }
+
+    .cartremovebtn {
+        padding: 5px 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(157, 10, 10, 0.432);
+    }
+
+
+}
+
+/* for small tablet 481px to 767px */
+@media only screen and (max-width: 768px) {
+
+    .service-main-div {
+        display: flex;
+        flex-direction: column;
+        padding: 45px;
+        gap: 25px;
+    }
+
+    .left-our-service {
+        width: 100%;
+
+    }
+
+    .right-cart-service {
+        width: 100%;
+    }
+
+    .nav-list li {
+        font-size: 0.9rem;
+
+    }
+
+    .service-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px;
+    }
+
+    .overview h1 {
+        color: white;
+        font-size: 1.4rem;
+
+    }
+
+    .service-price {
+        font-size: 0.7rem;
+    }
+
+    .nav-list {
+
+        gap: 15px;
+
+    }
+
+    .right-section p {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 923px) {
+    .service-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px;
+    }
+
+    .service-main-div {
+        display: flex;
+        flex-direction: column;
+        padding: 45px;
+        gap: 25px;
+    }
+
+    .left-our-service {
+        width: 100%;
+
+    }
+
+    .right-cart-service {
+        width: 100%;
+    }
+
+    .right-section h4 {
+
+        font-size: 1.1rem;
+    }
+
+    .right-section p {
+
+        font-size: 0.5rem;
+    }
+
+    .text-content {
+        padding: 25px;
+
+    }
+
+}
+
+
+
+/* for small phones 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .service-name {
+        font-size: 0.7rem;
+
+    }
+
+    .service-price {
+        font-size: 0.6rem;
+    }
+
+    .nav-list {
+        gap: 5px;
+    }
+
+    .nav-list li {
+        display: none;
+    }
+
+    .text-content {
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .right img {
+        height: 200px;
+        width: auto;
+    }
+
+    .left p {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 0.8rem;
+
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    .headline {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .left a {
+        margin-top: 10px;
+    }
+
+    .news-main-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news-main-div div h1 {
+        width: 100%;
+    }
+
+    .form-mail-text {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .news-heading {
+        width: 100%;
+        display: block;
+    }
+
+    .service-main-div {
+        padding: 10px;
+
+    }
+
+    .overview h1 {
+
+        font-size: 1rem;
+
+    }
+
+    .overview {
+        padding: 2px;
+    }
+
+    .our-service p {
+        font-size: 0.6rem;
+    }
+
+    .our-service h2 {
+        font-size: 0.9rem;
+
+    }
+
+    .section-hero {
+        margin-top: 7px;
+    }
+
+    .footer-content {
+
+        margin-left: 10px;
+
+
+    }
+
+    .right-section h4 {
+        font-size: 1rem;
+    }
+
+    nav {
+        justify-content: space-between;
+
+    }
+
+}
